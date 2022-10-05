@@ -1,0 +1,25 @@
+// Instalação e configuração de Slider jQuery //
+
+1. Criar a pasta "javascript" na raiz do site;
+2. Baixar os arquivos "jquery-latest.min.js" e "unslider.min.js" e salvá-los na pasta "javascript";
+3. Incluir o link dos dois arquivos no HTML abaixo da tag <title>;
+4. Copiar as regras de css ".banner" e colar no final do css do site;
+5. Organizar as imagens no HTML utilizando lista não-ordenada <ul><li>;
+6. Inserir a classe ".banner" desta maneira <div class="banner" id="slider">
+7. Copiar o script de função do slider e colar após os <script> no início do HTML.
+
+//// CSS ////////////////////
+.banner { position: relative; overflow: auto; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+
+//// SCRIPT DE FUNÇÃO ////////////////////
+<script type="text/javascript">
+$(function() {
+$('.banner').unslider({
+	speed: 500, 
+	delay: 3000,
+});
+});
+</script>
+

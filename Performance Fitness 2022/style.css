@@ -1,0 +1,118 @@
+*{
+    margin:  0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #d3d3d3;
+}
+.cabecalho{
+    height: 200px;
+    background-color: #fff;
+}
+.cabecalho img {
+    margin: 15px 0 0 40px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #c6d643;
+    height: 200px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+}
+.menu ul li {
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+.menu a:hover{
+    color: #998686;
+    text-decoration: underline;
+}
+.sociais img{
+    margin-right: 15px;
+}
+
+.banner{
+    background-image: url(imagens/banner.jpg);
+    height: 450px;
+    background-size: cover; 
+}
+.principal{
+   display: flex; 
+}
+.coluna {
+    background-color: #fff;
+    max-width: 400px;
+    height: 600px;
+}
+.coluna img {
+    margin: 30px 40px;
+}
+.coluna h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.coluna p {
+    margin: 0 40px 30px 50px;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding-right: 20px;
+    line-height: 33px;
+}
+.coluna p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+.coluna p a:hover {
+    color: #c6d643;
+}
+.banner-lutas{
+    background-color: #fff;
+    max-width: 400px;
+    height: 600px;
+}
+.banner-lutas img{
+   margin: 30px 0 0 40px ;
+}
+.rodape{
+    background-color:#c6d643;
+    height: 250px; 
+}
+.rodape ul{
+    list-style: none;
+    display: flex;
+}
+.rodape ul li {
+    margin: 30px 0 0 40px;
+}
+.rodape a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.rodape a:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.rodape p {
+    margin: 143px 350px 40px 350px;
+    font-size: 1.2rem;
+}
